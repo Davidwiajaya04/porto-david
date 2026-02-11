@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/favicon-portfolio.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>My Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="js/nav.js"></script>
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <nav id="navbar" class="black navbar navbar-expand-lg fixed-top">
+        <!-- Brand -->
+        <a id="nav-logo" class="navbar-brand" href="index.html">DAVID TRI WIJAYANTO</a>
+
+        <!-- Button collapsable -->
+        <button class="navbar-toggler" id="nav-btn" type="button" data-toggle="collapse"
+            data-target="#collapsibleNavbar">
+            <span class="navbar-btn"><i class="fa fa-bars" aria-hidden="true"></i></span>
+        </button>
+        <!-- Links -->
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul id="nav-ul" class="navbar-nav">
+                <li class="nav-item navigation-list">
+                    <a class="nav-link nav-custom-link" href="index.html">Profile</a>
+                </li>
+                <li class="nav-item navigation-list">
+                    <a class="nav-link nav-custom-link" href="#about-me">Tentang</a>
+                </li>
+                <li class="nav-item navigation-list">
+                    <a class="nav-link nav-custom-link" href="#my-portfolio">Pendidikan</a>
+                </li>
+                <li class="nav-item navigation-list">
+                    <a class="nav-link nav-custom-link" href="#project-btn">Project</a>
+                </li>
+                <li class="nav-item navigation-list">
+                    <a class="nav-link nav-custom-link" href="#section-contact">Kontak</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <main class="container-fluid main p-0">
+        <!-- SECTION NO 1 -->
+        <section class="container-fluid section-1">
+            <div class="row section-1-inner">
+                <div class="col section-1-inner-col">
+                    <div class="image-frame mx-auto my-5">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SECTION NO 2 -->
+        <section id="about-me" class="container-fluid section-2">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="primary-heading">
+                        Project  <span class="fw-bold primary-heading-bold">Experience</span>
+                    <div class="paragraph mx-auto mt-2 text-center">
+                        <br>
+                        <br>
+                        <p>
+                            <b>Saya Merupakan Fresh Graduate S1 Sistem Informasi</b> dengan ketertarikan pada
+                            <b>pengembangan web</b>, <b>infrastruktur IT</b>, dan <b>keamanan informasi</b>.
+                            Terbiasa mengerjakan proyek akademik berbasis teknologi,
+                            mulai dari <b>perancangan sistem</b>, <b>implementasi website</b>,
+                            hingga <b>analisis keamanan informasi</b>
+                        </p>
+                        <br>
+
+                    <a class="section-2-button fw-bold"
+                    onclick="var t=document.getElementById('text'); t.style.display=(t.style.display==='none')?'block':'none';">
+                            Read More
+                    </a>
+
+                    <p id="text" style="display:none; margin-top:15px;">
+                        Saya memiliki kemampuan
+                        analitis yang baik, terbiasa bekerja secara terstruktur,
+                        dan siap beradaptasi dengan perkembangan teknologi.
+                        Saya tertarik untuk berkontribusi dalam pengembangan solusi digital
+                        yang efektif, aman, dan berkelanjutan.
+                    </p>
+                </div>
+
+        </section>
+
+
+        <!-- SECTION NO 3 -->
+        <section class="container-fluid section-3">
+            <div class="row section-3-inner">
+                <div class="col-lg-6 section-3-inner-col-left text-center">
+                    <div class="primary-heading section-3-heading text-lg-end">
+                        I Am <span class="fw-bold">Fresh Graduate</span>
+                    </div>
+                    <div class="section-3-image-left text-lg-end">
+                        <img src="./images/foto2.jpeg" class="img-fluid sec3-images sec3-img-left" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 section-3-inner-col-right text-center mt-5 mt-lg-0">
+                    <div class="section-3-image-right text-lg-start">
+                        <img src="./images/foto-david.jpg" class="img-fluid sec3-images sec3-img-right" alt="">
+                    </div>
+                    <div class="section-3-button-right text-lg-start">
+                        <button class="sec3-btn-right text-uppercase fw-bold" onclick="location.href='#'">
+                            >>>>>>>>>>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="background-section-3"></div>
+        </section>
+
+
+        <!-- SECTION NO 4 -->
+        <section class="container-fluid section-4">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-4-left text-center text-lg-end pe-0 pe-lg-5">
+                        <span class="section-4-heading text__light">We</span>
+                        <span class="section-4-heading text__light">Build</span>
+                        <span class="section-4-heading-bold fw-bolder">Digital</span>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="section-4-right text-center text-lg-start">
+                        <div class="sec4-blank"></div>
+                        <div class="sec4-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus est dolor iure voluptates.
+                            Facere nostrum porro, velit veniam, architecto veritatis, libero a repellat quod quas atque
+                            totam accusamus obcaecati delectus dicta! Suscipit ratione qui, nihil voluptates error
+                            distinctio optio doloremque?
+                        </div>
+                        <div class="section-4-button">
+                            <button class="sec4-btn text-uppercase fw-bold" onclick="location.href='#'">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Divider -->
+        <div class="bold-line"></div>
+
+
+        <!-- SECTION NO 5 -->
+        <section id="my-portfolio" class="container-fluid section-5">
+            <div class="row">
+                <div class="col">
+                    <div class="section-5-text text-center mx-auto">
+                        Merancang Solusi Digital <br>
+                        Melalui Teknologi & Inovasi
+                    </div>
+                    <div class="section-5-icon text-center">
+                        <i class="bi bi-chevron-double-down sec5-icon"></i>
+                    </div>
+                </div>
+            </div>
+
+            <section id="pendidikan" class="education-section">
+    <h2 class="section-title">Pendidikan</h2>
+<div class="timeline">
+
+    <!-- Pendidikan 1 -->
+    <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+            <img src="./images/smp.jpg" alt="SMA Negeri 2 Karangpandan">
+
+            <div class="timeline-text">
+                <h3>SMP Negeri 2 Karangpandan</h3>
+                <span class="timeline-date">2015 – 2018</span>
+                <p>
+                    Menempuh pendidikan menengah pertama dengan fokus pada pengembangan kemampuan akademik dan pembentukan karakter. 
+                    Aktif mengikuti kegiatan sekolah serta membangun sikap disiplin, tanggung jawab, dan kerja sama. 
+                    Pengalaman selama masa SMP menjadi dasar dalam membentuk etika belajar, kemandirian, serta kesiapan untuk melanjutkan pendidikan ke jenjang menengah.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pendidikan 2 -->
+    <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+            <img src="./images/sma.jpg" alt="SMA Muhammadiyah 1 Karanganyar">
+
+            <div class="timeline-text">
+                <h3>SMA Muhammadiyah 1 Karanganyar</h3>
+                <span class="timeline-date">2018 – 2021</span>
+                <p>
+                    Mengikuti pendidikan menengah jurusan IPA dan merupakan bagian dari kelas unggulan ITC (Information and Communication Technology).
+                    Terlibat aktif dalam berbagai kegiatan akademik dan non-akademik sekolah. Memiliki ketertarikan yang tinggi pada teknologi informasi, 
+                    pengoperasian komputer, serta pemanfaatan teknologi dalam mendukung proses pembelajaran.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pendidikan 3 -->
+    <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+            <img src="./images/kuliah.png" alt="Telkom University">
+
+            <div class="timeline-text">
+                <h3>S1 Sistem Informasi – Telkom University</h3>
+                <span class="timeline-date">2021 – 2025</span>
+                <p>
+                    Menempuh pendidikan Sarjana Sistem Informasi dengan fokus pada pengelolaan teknologi informasi, keamanan informasi, dan pengembangan sistem informasi. 
+                    Aktif berorganisasi selama masa perkuliahan yang melatih kemampuan kepemimpinan, komunikasi, dan kerja tim. 
+                    Menyelesaikan studi dengan IPK 3.61 serta menyusun skripsi mengenai penerapan ISO/IEC 27001:2022 dalam manajemen keamanan informasi.
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- ===================== PROJECT SECTION ===================== -->
+<section class="container-fluid section-6">
+
+    <div class="container">
+
+        <!-- ================= BMKG ================= -->
+        <div class="row align-items-center project-item">
+
+            <div class="col-lg-6">
+                <h2 class="project-title">Buku Tamu Digital</h2>
+                <h6 class="project-subtitle">
+                    BMKG Stasiun Meteorologi Kelas II Yogyakarta
+                </h6>
+
+                <p class="project-text">
+                    Website Buku Tamu Digital merupakan sistem informasi berbasis web
+                    yang dirancang untuk mempermudah pencatatan serta pengelolaan data
+                    pengunjung secara digital. Sistem ini menggantikan proses manual
+                    sehingga administrasi menjadi lebih efisien, aman, dan terorganisir.
+                </p>
+
+                <p class="project-text">
+                    Pengunjung dapat mengisi data kunjungan seperti nama, instansi,
+                    keperluan, dan waktu kunjungan secara online. Data tersimpan otomatis
+                    dalam database dan dapat dikelola melalui dashboard admin, termasuk
+                    fitur pencarian serta ekspor laporan dalam format Excel.
+                </p>
+
+
+            </div>
+
+            <div class="col-lg-6 text-center">
+                <img src="./images/bmkg-webiste.png"
+                    class="img-fluid project-image"
+                    alt="Website Buku Tamu Digital">
+            </div>
+
+        </div>
+
+
+        <!-- ================= STUDYBUDDY ================= -->
+        <div class="row align-items-center project-item flex-lg-row-reverse">
+
+            <div class="col-lg-6">
+                <h2 class="project-title">StudyBuddy</h2>
+                <h6 class="project-subtitle">
+                    Learning Management System (LMS)
+                </h6>
+
+                <p class="project-text">
+                    StudyBuddy merupakan platform Learning Management System (LMS)
+                    yang dikembangkan untuk mendukung proses pembelajaran digital
+                    secara fleksibel, terstruktur, dan mudah digunakan oleh siswa
+                    maupun pengajar.
+                </p>
+
+                <p class="project-text">
+                    Fitur utama meliputi manajemen kelas, unggah materi, pemberian
+                    tugas, kuis online, serta monitoring progres belajar dalam satu
+                    sistem terintegrasi yang modern dan responsif.
+                </p>
+
+            </div>
+
+            <div class="col-lg-6 text-center">
+                <img src="./images/lms-webiste.png"
+                    class="img-fluid project-image"
+                    alt="Website StudyBuddy LMS">
+            </div>
+
+        </div>
+
+
+        <!-- ================= PT MULIA ================= -->
+        <div class="row align-items-center project-item">
+
+            <div class="col-lg-6">
+                <h2 class="project-title">
+                    PT Mulia Sarana Utama Tech
+                </h2>
+                <h6 class="project-subtitle">
+                    Website Company Profile Berbasis Odoo
+                </h6>
+
+                <p class="project-text">
+                    Website company profile ini dikembangkan untuk menampilkan
+                    informasi perusahaan secara profesional serta meningkatkan
+                    branding dan kredibilitas perusahaan di era digital.
+                </p>
+
+                <p class="project-text">
+                    Website dirancang modern dan responsif sehingga dapat diakses
+                    dengan optimal melalui berbagai perangkat. Navigasi yang jelas
+                    membantu pengguna menemukan informasi produk, layanan, dan
+                    kontak perusahaan dengan mudah.
+                </p>
+
+            </div>
+
+            <div class="col-lg-6 text-center">
+                <img src="./images/pt-mulia-webiste.png"
+                    class="img-fluid project-image"
+                    alt="Website PT Mulia Sarana Utama Tech">
+            </div>
+
+        </div>
+
+
+        <!-- ================= SEE ALL ================= -->
+        <div class="text-center mt-5">
+            <a href="#" class="project-btn see-all-btn">
+                ▲ ▲ ▲ ▲ ▲ ▲ ▲ 
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+
+        <!-- SECTION CONTACT -->
+        <section id="section-contact" class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="contact-heading">
+                        Hubungi Saya
+                    </div>
+                    <div class="contact-para">
+                        Let's start a conversation
+                    </div>
+                </div>
+            </div>
+            <div class="row card-row-1">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card text-center custom-card">
+                        <!-- <div class="card-header"></div> -->
+                        <div class="card-body">
+                            <div class="card-circle">
+                                <div class="card-circle-icon"><i class="fa fa-map-signs" aria-hidden="true"></i></div>
+                            </div>
+                            <div class="card-heading">Alamat</div>
+                            <div class="card-para">Karanganyar, Jawa Tengah</div>
+                        </div>
+                        <!-- <div class="card-footer"></div> -->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card text-center custom-card mt-5 mt-md-0">
+                        <!-- <div class="card-header"></div> -->
+                        <div class="card-body">
+                            <div class="card-circle">
+                                <div class="card-circle-icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                            </div>
+                            <div class="card-heading">Nomor Handphone</div>
+                            <div class="card-para"><a class="card-link" href="https://wa.me/6281230340986">+6281230340986</div></a>
+                        </div>
+                        <!-- <div class="card-footer"></div> -->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card text-center custom-card mt-5 mt-lg-0">
+                        <!-- <div class="card-header"></div> -->
+                        <div class="card-body">
+                            <div class="card-circle">
+                                <div class="card-circle-icon"><i class="fa fa-paper-plane" aria-hidden="true"></i></div>
+                            </div>
+                            <div class="card-heading">Alamat Email</div>
+                            <div class="card-para"><a class="card-link"
+                                    href="mailto:email@example.com">wijayantodavid04@gmail.com</div></a>
+                        </div>
+                        <!-- <div class="card-footer"></div> -->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card text-center custom-card mt-5 mt-lg-0">
+                        <!-- <div class="card-header"></div> -->
+                        <div class="card-body">
+                            <div class="card-circle">
+                                <div class="card-circle-icon"><i class="fa fa-globe" aria-hidden="true"></i></div>
+                            </div>
+                            <div class="card-heading">Website</div>
+                            <div class="card-para"><a class="card-link" href="#">porto-david.vercel.app</a></div>
+                        </div>
+                        <!-- <div class="card-footer"></div> -->
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </br>
+    </br>
+    </br>
+    </br>
+
+        <!-- SECTION NO 7 -->
+        <section class="container-fluid section-7">
+            <div class="row section-7-inner mx-auto text-center">
+                <div class="col">
+                    <div class="section-7-text">
+                        Let’s Connect and Collaborate. Follow my journey in technology and digital innovation.
+                    </div>
+                    <div class="section-7-icons">
+    
+    <a href="https://www.facebook.com/davidwijayannto"
+       class="social-icons"
+       target="_blank"
+       rel="noopener noreferrer">
+        <i class="bi bi-facebook icons"></i>
+    </a>
+
+    <a href="https://www.instagram.com/davidwijayannto"
+       class="social-icons"
+       target="_blank"
+       rel="noopener noreferrer">
+        <i class="bi bi-instagram icons"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/david-tri-wijayanto-13b431269"
+       class="social-icons"
+       target="_blank"
+       rel="noopener noreferrer">
+        <i class="bi bi-linkedin icons"></i>
+    </a>
+
+</div>
+
+                </div>
+            </div>
+        </section>
+
+<!-- SECTION NO 8 -->
+<footer class="container-fluid footer py-5">
+    <div class="container">
+        <div class="row text-center text-md-start">
+
+            <!-- Column 1 -->
+            <div class="col-md-4 mb-4">
+                <h5 class="footer-title">Tentang Saya</h5>
+                <p class="footer-desc">
+                    Lulusan Sistem Informasi dengan minat kuat pada keamanan informasi, pengembangan sistem, dan transformasi digital. 
+                    Saya berfokus pada solusi teknologi yang efisien, aman, dan berkelanjutan.
+                </p>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="col-md-4 mb-4">
+                <h5 class="footer-title">Keahlian</h5>
+                <ul class="footer-links">
+                    <li>Information Security</li>
+                    <li>Web Development</li>
+                    <li>System Implementation</li>
+                </ul>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="col-md-4 mb-4">
+                <h5 class="footer-title">Terhubung</h5>
+                <p class="footer-desc">Open for collaboration and professional opportunities.</p>
+            </div>
+
+        </div>
+
+        <hr class="footer-divider">
+
+        <div class="text-center">
+            <p class="copyright">
+                © 2026 David Tri Wijayanto. Designed & Developed by David.
+            </p>
+        </div>
+    </div>
+</footer>
