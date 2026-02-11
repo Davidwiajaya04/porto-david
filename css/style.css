@@ -895,7 +895,7 @@ TEXT CONTENT
 }
 
 .project-item {
-    margin-bottom: 140px;
+    margin-bottom: 40px;
 }
 
 /* Title */
@@ -971,6 +971,29 @@ TEXT CONTENT
         max-width: 100%;
         margin-top: 40px; /* jarak saat mobile */
     }
+@media (max-width: 576px) {
+
+    .section-6 {
+        padding: 40px 0; /* kecilkan padding atas bawah */
+    }
+
+    .project-item {
+        margin-bottom: 40px; /* tadinya 140px atau 60px → terlalu besar */
+    }
+
+    .project-content {
+        gap: 10px; /* kecilkan jarak text & image */
+    }
+
+    .project-image {
+        margin-top: 20px; /* tadinya 40px → terlalu jauh */
+    }
+
+    .project-text {
+        margin-bottom: 15px;
+    }
+
+}
 
 }
 
