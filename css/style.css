@@ -914,7 +914,7 @@ TEXT CONTENT
 
 /* Text */
 .project-text {
-    font-size: 19px; /* lebih besar */
+    font-size: 12px; /* lebih besar */
     line-height: 2;
     text-align: justify;
     color: #444;
